@@ -122,15 +122,6 @@ const Oursolutions = () => {
       </div>
 
       <div className="mt-10">
-        <div
-          className="rounded-xl px-4 md:px-6 py-2.5 flex items-center gap-2 md:gap-4 cursor-pointer hover:brightness-90 transition-all w-fit"
-          style={{ backgroundColor: "#1B3662" }}
-          onClick={() => router.push('/solutions-library')}
-        >
-          <span className="text-xs md:text-sm font-semibold text-white whitespace-nowrap">
-            EXPLORE THE LIBRARY →
-          </span>
-        </div>
       </div>
     </section>
   )

@@ -12,17 +12,17 @@ const Hero = ({ currentIndex, onNextClick, onPrevClick }: HeroProps) => {
   const [hoveredImage, setHoveredImage] = useState<'left' | 'center' | 'right' | null>(null);
 
   const imageData = [
-    { src: "/pictures/laptop.jpg", title: "Hydropower Projects", desc: "Engineering sustainable energy solutions through dam design and water management" },
-    { src: "/pictures/office.jpg", title: "Infrastructure Development", desc: "Building resilient roads, bridges, and transportation networks" },
-    { src: "/pictures/next.jpg", title: "Water Resources", desc: "Comprehensive water supply and sanitation systems for communities" },
-    { src: "/pictures/meeting.jpg", title: "Project Management", desc: "Expert consulting for construction and infrastructure projects" },
-    { src: "/pictures/danials.jpg", title: "Environmental Engineering", desc: "Sustainable solutions for environmental management and conservation" },
-    { src: "/pictures/pebbels.jpg", title: "Agricultural Development", desc: "Supporting agricultural productivity and rural infrastructure" },
-    { src: "/pictures/fande.jpg", title: "Energy Sector", desc: "Comprehensive energy consulting and power system solutions" },
-    { src: "/pictures/pavel.jpg", title: "Oil & Gas Services", desc: "Upstream and downstream sector engineering expertise" },
-    { src: "/pictures/conference.jpg", title: "Public Health Engineering", desc: "Delivering clean water and sanitation to communities" },
-    { src: "/pictures/trade.jpg", title: "Solid Waste Management", desc: "Integrated waste handling and disposal solutions" },
-    { src: "/pictures/maria4.jpg", title: "Construction Excellence", desc: "Quality project planning, feasibility studies, and execution" }
+    { src: "/pictures/laptop.jpg", title: "Artificial Intelligence", desc: "Transform your business with AI-powered solutions and generative AI capabilities" },
+    { src: "/pictures/office.jpg", title: "Digital Transformation", desc: "Drive sustainable change through comprehensive digital strategies" },
+    { src: "/pictures/next.jpg", title: "Business Strategy", desc: "Strategic consulting to unlock growth and competitive advantage" },
+    { src: "/pictures/meeting.jpg", title: "Financial Services", desc: "Transform financial institutions with innovative solutions" },
+    { src: "/pictures/danials.jpg", title: "Healthcare", desc: "Revolutionize patient care and operational excellence" },
+    { src: "/pictures/pebbels.jpg", title: "Energy & Utilities", desc: "Sustainable energy solutions for a changing world" },
+    { src: "/pictures/fande.jpg", title: "Manufacturing", desc: "Industry 4.0 transformation and operational excellence" },
+    { src: "/pictures/pavel.jpg", title: "Retail", desc: "Reinvent customer experiences and omnichannel commerce" },
+    { src: "/pictures/conference.jpg", title: "Technology", desc: "Innovation-driven solutions for tech companies" },
+    { src: "/pictures/trade.jpg", title: "Cloud Solutions", desc: "Scalable cloud infrastructure and migration strategies" },
+    { src: "/pictures/maria4.jpg", title: "Cybersecurity", desc: "Protect your digital assets with advanced security solutions" }
   ];
 
   // Preload all images
@@ -83,7 +83,7 @@ const Hero = ({ currentIndex, onNextClick, onPrevClick }: HeroProps) => {
               </div>
             </div>
             {/* Small white box - always visible */}
-            <div className="absolute bottom-6 left-6 right-6 p-6 bg-white/60 backdrop-blur-sm rounded-xl">
+            <div className="absolute bottom-6 left-6 right-6 p-6 bg-white/60 backdrop-blur-sm rounded-2xl">
               <p className="text-xs text-gray-600 mb-2 text-left">Article 15, 2020</p>
               <p className="text-base text-black leading-relaxed text-left">
                 {imageData[currentIndex].desc}
@@ -92,11 +92,11 @@ const Hero = ({ currentIndex, onNextClick, onPrevClick }: HeroProps) => {
 
             {/* White overlay that slides up from bottom on hover */}
             <div
-              className="absolute inset-0 overflow-hidden"
+              className="absolute inset-0 overflow-hidden rounded-2xl"
               onMouseEnter={() => setHoveredImage('center')}
               onMouseLeave={() => setHoveredImage(null)}
             >
-              <div className={`absolute inset-x-0 h-full bg-white/60 backdrop-blur-sm transition-transform duration-200 ease-out ${fontGeistSans} ${
+              <div className={`absolute inset-x-0 h-full bg-white/60 backdrop-blur-sm transition-transform duration-200 ease-out rounded-2xl ${fontGeistSans} ${
                 hoveredImage === 'center' ? 'translate-y-0' : 'translate-y-full'
               }`}>
                 <div className="p-8 h-full flex flex-col justify-center">

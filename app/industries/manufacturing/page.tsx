@@ -73,7 +73,7 @@ const ManufacturingPage = () => {
           <p className="text-lg mb-6 opacity-90">
             Embrace Industry 4.0 and drive operational excellence with our comprehensive manufacturing solutions. Discover how we can help transform your operations.
           </p>
-          <button className="bg-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors" style={{ color: '#193362' }}>
+          <button className="bg-white px-8 py-3 rounded-2xl font-semibold hover:bg-gray-100 transition-colors" style={{ color: '#193362' }}>
             Request Demo
           </button>
         </div>

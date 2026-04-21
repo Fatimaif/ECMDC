@@ -14,13 +14,13 @@ const Buttons = ({ onPrevClick, onNextClick }: ButtonsProps) => {
   <div className="flex gap-3">
     <button
       onClick={onPrevClick}
-      className="p-3 rounded-lg bg-gray-100 shadow-sm hover:bg-gray-200"
+      className="p-3 rounded-2xl bg-gray-100 shadow-sm hover:bg-gray-200"
     >
       <ChevronLeft size={18} className="text-gray-700" />
     </button>
     <button
       onClick={onNextClick}
-      className="p-3 rounded-lg bg-gray-100 shadow-sm hover:bg-gray-200"
+      className="p-3 rounded-2xl bg-gray-100 shadow-sm hover:bg-gray-200"
     >
       <ChevronRight size={18} className="text-gray-700" />
     </button>

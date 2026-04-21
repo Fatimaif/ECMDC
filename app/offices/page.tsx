@@ -7,9 +7,30 @@ const OfficesPage = () => {
     <div className="bg-white min-h-screen">
       <Header />
 
+      {/* Hero Section with Image */}
+      <section className="w-full" style={{ backgroundColor: '#F1EEEA' }}>
+        <div className="w-full px-4 md:px-10 pt-20 pb-16 flex flex-col items-center">
+          <h1 className="text-5xl md:text-6xl font-light text-[#1a1a1a] mb-10 text-center">
+            Our Global Offices
+          </h1>
+          <p className="max-w-3xl text-lg md:text-xl leading-relaxed text-[#1a1a1a] text-center">
+            Serving clients worldwide with local expertise and global reach
+          </p>
+        </div>
+        <div className="w-full px-4 md:px-10 pb-0 flex justify-center">
+          <div className="w-full overflow-hidden rounded-3xl">
+            <div className="h-[420px] md:h-[500px] w-full">
+              <img
+                src="https://images.pexels.com/photos/2422290/pexels-photo-2422290.jpeg"
+                alt="Global Offices"
+                className="w-full h-full object-cover object-center"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <main className="max-w-5xl mx-auto px-4 md:px-10 py-16">
-        <h1 className="text-5xl font-light text-gray-900 mb-4">Our Global Offices</h1>
-        <p className="text-gray-600 mb-12">Serving clients worldwide with local expertise</p>
 
         <div className="space-y-10 text-gray-800">
           <section>
@@ -23,7 +44,7 @@ const OfficesPage = () => {
             <h2 className="text-3xl font-light text-gray-900 mb-6">Office Locations</h2>
 
             <div className="space-y-6">
-              <div className="p-6 bg-gray-50 rounded-lg border-l-4 border-blue-900">
+              <div className="p-6 bg-gray-50 rounded-3xl border-l-4 border-blue-900">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">Lahore, Pakistan (Headquarters)</h3>
                 <p className="text-gray-700 mb-2">Office No. 36, The Pearl Continental</p>
                 <p className="text-gray-700 mb-2">Mall Road, Lahore</p>
@@ -31,7 +52,7 @@ const OfficesPage = () => {
                 <p className="text-gray-700">Phone: +92 300 5557859</p>
               </div>
 
-              <div className="p-6 bg-gray-50 rounded-lg border-l-4 border-blue-900">
+              <div className="p-6 bg-gray-50 rounded-3xl border-l-4 border-blue-900">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">Dubai, UAE</h3>
                 <p className="text-gray-700 mb-2">Business Bay Tower</p>
                 <p className="text-gray-700 mb-2">Dubai, United Arab Emirates</p>
@@ -39,7 +60,7 @@ const OfficesPage = () => {
                 <p className="text-gray-700">Phone: +971 4 XXX XXXX</p>
               </div>
 
-              <div className="p-6 bg-gray-50 rounded-lg border-l-4 border-blue-900">
+              <div className="p-6 bg-gray-50 rounded-3xl border-l-4 border-blue-900">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">London, United Kingdom</h3>
                 <p className="text-gray-700 mb-2">Canary Wharf</p>
                 <p className="text-gray-700 mb-2">London, United Kingdom</p>
@@ -47,7 +68,7 @@ const OfficesPage = () => {
                 <p className="text-gray-700">Phone: +44 20 XXXX XXXX</p>
               </div>
 
-              <div className="p-6 bg-gray-50 rounded-lg border-l-4 border-blue-900">
+              <div className="p-6 bg-gray-50 rounded-3xl border-l-4 border-blue-900">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">New York, USA</h3>
                 <p className="text-gray-700 mb-2">Manhattan Financial District</p>
                 <p className="text-gray-700 mb-2">New York, NY</p>
@@ -55,7 +76,7 @@ const OfficesPage = () => {
                 <p className="text-gray-700">Phone: +1 212 XXX XXXX</p>
               </div>
 
-              <div className="p-6 bg-gray-50 rounded-lg border-l-4 border-blue-900">
+              <div className="p-6 bg-gray-50 rounded-3xl border-l-4 border-blue-900">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">Singapore</h3>
                 <p className="text-gray-700 mb-2">Marina Bay Financial Centre</p>
                 <p className="text-gray-700 mb-2">Singapore</p>
@@ -74,7 +95,7 @@ const OfficesPage = () => {
 
           <section className="mt-10">
             <h2 className="text-3xl font-light text-gray-900 mb-4">General Inquiries</h2>
-            <div className="mt-4 p-6 bg-gray-50 rounded-lg">
+            <div className="mt-4 p-6 bg-gray-50 rounded-3xl">
               <p className="font-semibold">ECMDC Global Headquarters</p>
               <p>Email: info@ecmdc.co</p>
               <p>Phone: +92 300 5557859</p>

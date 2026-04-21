@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+import Exploremore from '../services/components/Exploremore';
 import Footer from '../components/Footer';
 
 const CeoAdvisoryPage = () => {
@@ -74,21 +75,22 @@ const CeoAdvisoryPage = () => {
             Our CEO Advisory practice is led by former CEOs, board directors, and senior executives with decades of experience leading organizations through transformation, growth, and change.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="text-center p-6 bg-gray-50 rounded-xl">
+            <div className="text-center p-6 bg-gray-50 rounded-3xl">
               <div className="text-4xl font-light mb-2" style={{ color: '#193362' }}>200+</div>
               <div className="text-gray-700">Years Combined Experience</div>
             </div>
-            <div className="text-center p-6 bg-gray-50 rounded-xl">
+            <div className="text-center p-6 bg-gray-50 rounded-3xl">
               <div className="text-4xl font-light mb-2" style={{ color: '#193362' }}>50+</div>
               <div className="text-gray-700">Former CEOs</div>
             </div>
-            <div className="text-center p-6 bg-gray-50 rounded-xl">
+            <div className="text-center p-6 bg-gray-50 rounded-3xl">
               <div className="text-4xl font-light mb-2" style={{ color: '#193362' }}>100%</div>
               <div className="text-gray-700">Confidential</div>
             </div>
           </div>
         </div>
       </main>
+      <Exploremore />
       <Footer />
     </div>
   );

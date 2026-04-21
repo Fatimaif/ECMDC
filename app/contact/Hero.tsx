@@ -52,32 +52,32 @@ const Hero = () => {
           <form className="flex flex-col gap-4">
             <div className="flex flex-col">
               <label className="text-lg font-semibold text-gray-900 mb-1">Name*</label>
-              <input type="text" className="border border-gray-300 rounded px-3 py-2 text-lg focus:outline-none focus:ring-2 focus:ring-gray-400" />
+              <input type="text" className="border border-gray-300 rounded-2xl px-3 py-2 text-lg focus:outline-none focus:ring-2 focus:ring-gray-400" />
             </div>
 
             <div className="flex flex-col">
               <label className="text-lg font-semibold text-gray-900 mb-1">Email*</label>
-              <input type="email" className="border border-gray-300 rounded px-3 py-2 text-lg focus:outline-none focus:ring-2 focus:ring-gray-400" />
+              <input type="email" className="border border-gray-300 rounded-2xl px-3 py-2 text-lg focus:outline-none focus:ring-2 focus:ring-gray-400" />
             </div>
 
             <div className="flex flex-col">
               <label className="text-lg font-semibold text-gray-900 mb-1">Company or School</label>
-              <input type="text" className="border border-gray-300 rounded px-3 py-2 text-lg focus:outline-none focus:ring-2 focus:ring-gray-400" />
+              <input type="text" className="border border-gray-300 rounded-2xl px-3 py-2 text-lg focus:outline-none focus:ring-2 focus:ring-gray-400" />
             </div>
 
             <div className="flex flex-col">
               <label className="text-lg font-semibold text-gray-900 mb-1">Title</label>
-              <input type="text" className="border border-gray-300 rounded px-3 py-2 text-lg focus:outline-none focus:ring-2 focus:ring-gray-400" />
+              <input type="text" className="border border-gray-300 rounded-2xl px-3 py-2 text-lg focus:outline-none focus:ring-2 focus:ring-gray-400" />
             </div>
 
             <div className="flex flex-col">
               <label className="text-lg font-semibold text-gray-900 mb-1">Subject*</label>
-              <input type="text" className="border border-gray-300 rounded px-3 py-2 text-lg focus:outline-none focus:ring-2 focus:ring-gray-400" />
+              <input type="text" className="border border-gray-300 rounded-2xl px-3 py-2 text-lg focus:outline-none focus:ring-2 focus:ring-gray-400" />
             </div>
 
             <div className="flex flex-col">
               <label className="text-lg font-semibold text-gray-900 mb-1">Message*</label>
-              <textarea rows={5} className="border border-gray-300 rounded px-3 py-2 text-lg focus:outline-none focus:ring-2 focus:ring-gray-400"></textarea>
+              <textarea rows={5} className="border border-gray-300 rounded-2xl px-3 py-2 text-lg focus:outline-none focus:ring-2 focus:ring-gray-400"></textarea>
             </div>
           </form>
         </div>

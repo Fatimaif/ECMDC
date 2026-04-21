@@ -7,14 +7,14 @@ const Subscribebar = () => {
         <h2 className="text-2xl font-light text-gray-800">
           Get the latest industry insights delivered to you
         </h2>
-        <div className="flex items-center w-full md:w-[50%] bg-white rounded-xl p-1 shadow">
+        <div className="flex items-center w-full md:w-[50%] bg-white rounded-3xl p-1 shadow">
           <input
             type="email"
             placeholder="Enter Email"
-            className="w-full px-4 py-3 rounded-xl outline-none text-gray-800"
+            className="w-full px-4 py-3 rounded-3xl outline-none text-gray-800"
           />
 
-          <button className="bg-[#1B3662] hover:brightness-90 transition text-white font-semibold px-6 py-6 rounded-lg flex items-center gap-2">
+          <button className="bg-[#1B3662] hover:brightness-90 transition text-white font-semibold px-6 py-6 rounded-2xl flex items-center gap-2">
             SUBSCRIBE <span>→</span>
           </button>
         </div>

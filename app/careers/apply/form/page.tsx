@@ -66,7 +66,7 @@ const ApplicationFormPage = () => {
                   required
                   value={formData.firstName}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#193362] focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-2xl border border-gray-300 focus:outline-none focus:ring-0 focus:border-gray-300"
                   placeholder="Enter your first name"
                 />
               </div>
@@ -80,7 +80,7 @@ const ApplicationFormPage = () => {
                   required
                   value={formData.lastName}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#193362] focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-2xl border border-gray-300 focus:outline-none focus:ring-0 focus:border-gray-300"
                   placeholder="Enter your last name"
                 />
               </div>
@@ -94,7 +94,7 @@ const ApplicationFormPage = () => {
                   required
                   value={formData.email}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#193362] focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-2xl border border-gray-300 focus:outline-none focus:ring-0 focus:border-gray-300"
                   placeholder="your.email@example.com"
                 />
               </div>
@@ -108,7 +108,7 @@ const ApplicationFormPage = () => {
                   required
                   value={formData.phone}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#193362] focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-2xl border border-gray-300 focus:outline-none focus:ring-0 focus:border-gray-300"
                   placeholder="+1 (555) 000-0000"
                 />
               </div>
@@ -119,7 +119,7 @@ const ApplicationFormPage = () => {
           <div className="bg-gray-50 rounded-2xl p-8 border border-gray-200">
             <h2 className="text-2xl font-light text-black mb-6">Position Details</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div>
+              <div className="relative">
                 <label className="block text-sm font-semibold text-gray-900 mb-2">
                   Position Applied For *
                 </label>
@@ -128,7 +128,7 @@ const ApplicationFormPage = () => {
                   required
                   value={formData.position}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#193362] focus:border-transparent"
+                  className="w-full pl-4 pr-10 py-3 rounded-2xl border border-gray-300 focus:outline-none focus:ring-0 focus:border-gray-300 appearance-none"
                 >
                   <option value="">Select a position</option>
                   <option value="consultant">Consultant</option>
@@ -141,8 +141,13 @@ const ApplicationFormPage = () => {
                   <option value="data-scientist">Data Scientist</option>
                   <option value="other">Other</option>
                 </select>
+                <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3 pt-8">
+                  <svg className="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                  </svg>
+                </div>
               </div>
-              <div>
+              <div className="relative">
                 <label className="block text-sm font-semibold text-gray-900 mb-2">
                   Preferred Location *
                 </label>
@@ -151,7 +156,7 @@ const ApplicationFormPage = () => {
                   required
                   value={formData.location}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#193362] focus:border-transparent"
+                  className="w-full pl-4 pr-10 py-3 rounded-2xl border border-gray-300 focus:outline-none focus:ring-0 focus:border-gray-300 appearance-none"
                 >
                   <option value="">Select a location</option>
                   <option value="new-york">New York</option>
@@ -162,6 +167,11 @@ const ApplicationFormPage = () => {
                   <option value="remote">Remote</option>
                   <option value="other">Other</option>
                 </select>
+                <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3 pt-8">
+                  <svg className="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
@@ -179,7 +189,7 @@ const ApplicationFormPage = () => {
                   name="linkedIn"
                   value={formData.linkedIn}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#193362] focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-2xl border border-gray-300 focus:outline-none focus:ring-0 focus:border-gray-300"
                   placeholder="https://linkedin.com/in/yourprofile"
                 />
               </div>
@@ -192,7 +202,7 @@ const ApplicationFormPage = () => {
                   name="portfolio"
                   value={formData.portfolio}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#193362] focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-2xl border border-gray-300 focus:outline-none focus:ring-0 focus:border-gray-300"
                   placeholder="https://yourportfolio.com"
                 />
               </div>
@@ -213,7 +223,7 @@ const ApplicationFormPage = () => {
                   value={formData.experience}
                   onChange={handleInputChange}
                   rows={4}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#193362] focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-2xl border border-gray-300 focus:outline-none focus:ring-0 focus:border-gray-300"
                   placeholder="Briefly describe your relevant work experience..."
                 />
               </div>
@@ -227,7 +237,7 @@ const ApplicationFormPage = () => {
                   value={formData.education}
                   onChange={handleInputChange}
                   rows={3}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#193362] focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-2xl border border-gray-300 focus:outline-none focus:ring-0 focus:border-gray-300"
                   placeholder="List your educational qualifications..."
                 />
               </div>
@@ -247,7 +257,7 @@ const ApplicationFormPage = () => {
                 value={formData.coverLetter}
                 onChange={handleInputChange}
                 rows={6}
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#193362] focus:border-transparent"
+                className="w-full px-4 py-3 rounded-3xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#193362] focus:border-transparent"
                 placeholder="Tell us about your motivations, relevant skills, and what you can bring to ECMDC..."
               />
             </div>
@@ -266,7 +276,7 @@ const ApplicationFormPage = () => {
                 required
                 onChange={handleFileChange}
                 accept=".pdf,.doc,.docx"
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#193362] focus:border-transparent file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-semibold file:bg-[#193362] file:text-white hover:file:bg-[#152a50] file:cursor-pointer"
+                className="w-full px-4 py-3 rounded-2xl border border-gray-300 focus:outline-none focus:ring-0 focus:border-gray-300 file:mr-4 file:py-2 file:px-4 file:rounded-2xl file:border-0 file:text-sm file:font-semibold file:bg-[#193362] file:text-white hover:file:bg-[#152a50] file:cursor-pointer"
               />
             </div>
           </div>
@@ -275,14 +285,14 @@ const ApplicationFormPage = () => {
           <div className="flex gap-4">
             <button
               type="submit"
-              className="flex-1 bg-[#193362] text-white px-8 py-4 rounded-lg font-semibold hover:brightness-90 transition-all text-lg"
+              className="flex-1 bg-[#193362] text-white px-8 py-4 rounded-2xl font-semibold hover:brightness-90 transition-all text-lg"
             >
               Submit Application
             </button>
             <button
               type="button"
               onClick={() => router.push('/careers/apply')}
-              className="px-8 py-4 rounded-lg font-semibold border border-gray-300 hover:bg-gray-50 transition-all text-lg"
+              className="px-8 py-4 rounded-2xl font-semibold border border-gray-300 hover:bg-gray-50 transition-all text-lg"
             >
               Cancel
             </button>

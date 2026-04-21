@@ -51,7 +51,7 @@ export default function NavBar() {
         className={`w-full flex justify-center py-8 bg-white overflow-hidden ${fontAspenExtralight}`}
       >
         <div
-          className="bg-white rounded-xl px-12 py-6"
+          className="bg-white rounded-2xl px-12 py-6"
           style={{
             boxShadow:
               "0 -2px 4px -1px rgba(0, 0, 0, 0.05), 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 -1px 2px -1px rgba(0, 0, 0, 0.03), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",

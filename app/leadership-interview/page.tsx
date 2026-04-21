@@ -34,7 +34,7 @@ const LeadershipInterviewPage = () => {
               </div>
 
               {/* Q&A Format */}
-              <div className="bg-gray-50 p-8 rounded-xl border-l-4 border-red-600">
+              <div className="bg-gray-50 p-8 rounded-3xl border-l-4 border-red-600">
                 <p className="font-bold text-lg text-gray-900 mb-3">Q: What does leadership mean to you in today's context?</p>
                 <p className="text-gray-700 leading-relaxed italic">
                   "Leadership today is fundamentally about creating an environment where hope isn't just a sentiment—it's a strategic asset. When people believe in the future we're building together, they unlock capabilities we never knew existed."
@@ -54,7 +54,7 @@ const LeadershipInterviewPage = () => {
                 <div className="mt-6 text-sm tracking-widest opacity-90">DR. WAYNE FREDERICK</div>
               </div>
 
-              <div className="bg-gray-50 p-8 rounded-xl border-l-4 border-red-600">
+              <div className="bg-gray-50 p-8 rounded-3xl border-l-4 border-red-600">
                 <p className="font-bold text-lg text-gray-900 mb-3">Q: How do you build resilience in organizations?</p>
                 <p className="text-gray-700 leading-relaxed italic">
                   "Resilience isn't built in boardrooms—it's cultivated in daily practices. We invest heavily in psychological safety, encourage experimentation, and celebrate learning from failure as much as we celebrate success."
@@ -81,7 +81,7 @@ const LeadershipInterviewPage = () => {
                 </div>
               </div>
 
-              <div className="bg-gray-50 p-8 rounded-xl border-l-4 border-red-600">
+              <div className="bg-gray-50 p-8 rounded-3xl border-l-4 border-red-600">
                 <p className="font-bold text-lg text-gray-900 mb-3">Q: What advice do you have for emerging leaders?</p>
                 <p className="text-gray-700 leading-relaxed italic">
                   "Find your purpose first, then build your strategy around it. The most successful leaders I've mentored aren't those with the best plans—they're those who inspire others to join them in a mission larger than any individual."
@@ -107,7 +107,7 @@ const LeadershipInterviewPage = () => {
 
           {/* Sidebar */}
           <div className="lg:col-span-1 space-y-6">
-            <div className="bg-gray-100 p-6 rounded-xl sticky top-24">
+            <div className="bg-gray-100 p-6 rounded-3xl sticky top-24">
               <h4 className="font-bold text-sm uppercase tracking-wider text-gray-600 mb-4">About Dr. Frederick</h4>
               <div className="space-y-3 text-sm text-gray-700">
                 <p><strong>Current Role:</strong> President & CEO</p>
@@ -125,7 +125,7 @@ const LeadershipInterviewPage = () => {
                 </ul>
               </div>
 
-              <button className="w-full mt-6 bg-red-600 text-white py-3 rounded-lg font-semibold hover:bg-red-700 transition-all">
+              <button className="w-full mt-6 bg-red-600 text-white py-3 rounded-2xl font-semibold hover:bg-red-700 transition-all">
                 Share Interview
               </button>
             </div>

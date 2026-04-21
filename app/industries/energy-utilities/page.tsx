@@ -73,7 +73,7 @@ const EnergyUtilitiesPage = () => {
           <p className="text-lg mb-6 opacity-90">
             Transform your energy and utility operations for a sustainable future. Connect with us to explore solutions for grid modernization and clean energy integration.
           </p>
-          <button className="bg-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors" style={{ color: '#193362' }}>
+          <button className="bg-white px-8 py-3 rounded-2xl font-semibold hover:bg-gray-100 transition-colors" style={{ color: '#193362' }}>
             Get in Touch
           </button>
         </div>

@@ -24,7 +24,7 @@ const Career = () => {
 
         <div className="flex flex-col sm:flex-row gap-3 mt-10 w-full max-w-full">
           <div
-            className="border border-black rounded-xl px-4 md:px-6 py-2.5 flex justify-between items-center gap-2 md:gap-4 bg-white cursor-pointer hover:bg-[#1B3662] hover:border-transparent transition-all group"
+            className="border border-black rounded-2xl px-4 md:px-6 py-2.5 flex justify-between items-center gap-2 md:gap-4 bg-white cursor-pointer hover:bg-[#1B3662] hover:border-transparent transition-all group"
             onClick={() => router.push('/careers')}
           >
             <span className="text-xs md:text-sm font-semibold text-black group-hover:text-white whitespace-nowrap transition-all">EXPLORE ECMDC CAREERS</span>
@@ -33,7 +33,7 @@ const Career = () => {
             </span>
           </div>
           <div
-            className="rounded-xl px-4 md:px-6 py-2.5 flex justify-between items-center gap-2 md:gap-4 cursor-pointer hover:brightness-90 transition-all"
+            className="rounded-2xl px-4 md:px-6 py-2.5 flex justify-between items-center gap-2 md:gap-4 cursor-pointer hover:brightness-90 transition-all"
             style={{ backgroundColor: "#1B3662" }}
             onClick={() => router.push('/careers/apply')}
           >

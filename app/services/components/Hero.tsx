@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <section className="w-full bg-white">
-      <div className="w-full px-4 md:px-10 pt-6 pb-16 flex flex-col items-center">
+      <div className="w-full px-4 md:px-10 pt-20 pb-16 flex flex-col items-center">
         <h1 className="text-5xl md:text-6xl font-light text-[#1a1a1a] mb-10 text-center">
           Artificial Intelligence at Scale
         </h1>

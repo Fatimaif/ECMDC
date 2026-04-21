@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+import Exploremore from '../services/components/Exploremore';
 import Footer from '../components/Footer';
 
 const SpotlightPage = () => {
@@ -68,6 +69,7 @@ const SpotlightPage = () => {
           </div>
         </div>
       </main>
+      <Exploremore />
       <Footer />
     </div>
   );

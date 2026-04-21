@@ -6,9 +6,30 @@ const AlumniPage = () => {
     <div className="bg-white min-h-screen">
       <Header />
 
+      {/* Hero Section with Image */}
+      <section className="w-full" style={{ backgroundColor: '#F1EEEA' }}>
+        <div className="w-full px-4 md:px-10 pt-20 pb-16 flex flex-col items-center">
+          <h1 className="text-5xl md:text-6xl font-light text-[#1a1a1a] mb-10 text-center">
+            ECMDC Alumni Network
+          </h1>
+          <p className="max-w-3xl text-lg md:text-xl leading-relaxed text-[#1a1a1a] text-center">
+            Stay connected with our global community of professionals and leaders
+          </p>
+        </div>
+        <div className="w-full px-4 md:px-10 pb-0 flex justify-center">
+          <div className="w-full overflow-hidden rounded-3xl">
+            <div className="h-[420px] md:h-[500px] w-full">
+              <img
+                src="https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg"
+                alt="Alumni Network"
+                className="w-full h-full object-cover object-center"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <main className="max-w-5xl mx-auto px-4 md:px-10 py-16">
-        <h1 className="text-5xl font-light text-gray-900 mb-4">ECMDC Alumni Network</h1>
-        <p className="text-gray-600 mb-12">Stay connected with our global community</p>
 
         <div className="space-y-10 text-gray-800">
           <section>
@@ -67,7 +88,7 @@ const AlumniPage = () => {
 
           <section>
             <h2 className="text-3xl font-light text-gray-900 mb-4">Contact Alumni Relations</h2>
-            <div className="mt-4 p-6 bg-gray-50 rounded-lg">
+            <div className="mt-4 p-6 bg-gray-50 rounded-3xl">
               <p className="font-semibold">ECMDC Alumni Relations</p>
               <p>Office No. 36, The Pearl Continental, Mall Road, Lahore</p>
               <p>Email: alumni@ecmdc.co</p>

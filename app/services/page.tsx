@@ -1,4 +1,5 @@
 import React from 'react'
+import Header from '../components/Header'
 import Hero from './components/Hero'
 import Aidivs from './components/Aidivs'
 import Para from './components/Para'
@@ -7,7 +8,6 @@ import Client from './components/Client'
 import Ecmdc from './components/Ecmdc'
 import Oursolutions from './components/Oursolutions'
 import Ourai from './components/Ourai'
-import Insights from './components/Insights'
 import Exploremore from './components/Exploremore'
 import Cta from '../homecomponents/Cta'
 import Footer from '../components/Footer'
@@ -15,6 +15,7 @@ import Footer from '../components/Footer'
 const Services = () => {
   return (
     <div>
+      <Header/>
       <Hero/>
       <Aidivs/>
       <Para/>
@@ -23,7 +24,6 @@ const Services = () => {
       <Ecmdc/>
       <Oursolutions/>
       <Ourai/>
-      <Insights/>
       <Exploremore/>
       <Cta/>
       <Footer/>

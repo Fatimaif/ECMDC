@@ -68,7 +68,7 @@ const CookiePreferencesPage = () => {
 
             <div className="space-y-4">
               {/* Necessary Cookies */}
-              <div className="p-6 bg-gray-50 rounded-xl border-2 border-gray-200">
+              <div className="p-6 bg-gray-50 rounded-3xl border-2 border-gray-200">
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-gray-900 mb-2">Strictly Necessary Cookies</h3>
@@ -86,7 +86,7 @@ const CookiePreferencesPage = () => {
               </div>
 
               {/* Functional Cookies */}
-              <div className="p-6 bg-gray-50 rounded-xl border-2 border-gray-200">
+              <div className="p-6 bg-gray-50 rounded-3xl border-2 border-gray-200">
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-gray-900 mb-2">Functional Cookies</h3>
@@ -110,7 +110,7 @@ const CookiePreferencesPage = () => {
               </div>
 
               {/* Analytics Cookies */}
-              <div className="p-6 bg-gray-50 rounded-xl border-2 border-gray-200">
+              <div className="p-6 bg-gray-50 rounded-3xl border-2 border-gray-200">
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-gray-900 mb-2">Analytics & Performance Cookies</h3>
@@ -134,7 +134,7 @@ const CookiePreferencesPage = () => {
               </div>
 
               {/* Marketing Cookies */}
-              <div className="p-6 bg-gray-50 rounded-xl border-2 border-gray-200">
+              <div className="p-6 bg-gray-50 rounded-3xl border-2 border-gray-200">
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-gray-900 mb-2">Marketing & Advertising Cookies</h3>
@@ -162,20 +162,20 @@ const CookiePreferencesPage = () => {
             <div className="flex flex-wrap gap-4 mt-8">
               <button
                 onClick={handleSavePreferences}
-                className="px-8 py-3 text-white rounded-lg font-semibold hover:brightness-90 transition-all"
+                className="px-8 py-3 text-white rounded-2xl font-semibold hover:brightness-90 transition-all"
                 style={{ backgroundColor: '#193362' }}
               >
                 Save Preferences
               </button>
               <button
                 onClick={handleAcceptAll}
-                className="px-8 py-3 bg-gray-900 text-white rounded-lg font-semibold hover:bg-gray-800 transition-all"
+                className="px-8 py-3 bg-gray-900 text-white rounded-2xl font-semibold hover:bg-gray-800 transition-all"
               >
                 Accept All
               </button>
               <button
                 onClick={handleRejectAll}
-                className="px-8 py-3 bg-gray-200 text-gray-900 rounded-lg font-semibold hover:bg-gray-300 transition-all"
+                className="px-8 py-3 bg-gray-200 text-gray-900 rounded-2xl font-semibold hover:bg-gray-300 transition-all"
               >
                 Reject All
               </button>
@@ -229,7 +229,7 @@ const CookiePreferencesPage = () => {
             <p className="leading-relaxed">
               If you have any questions about our use of cookies or this cookie policy, please contact us at:
             </p>
-            <div className="mt-4 p-6 bg-gray-50 rounded-lg">
+            <div className="mt-4 p-6 bg-gray-50 rounded-3xl">
               <p className="font-semibold">ECMDC</p>
               <p>Office No. 36, The Pearl Continental, Mall Road, Lahore</p>
               <p>Email: info@ecmdc.co</p>

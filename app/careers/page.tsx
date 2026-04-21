@@ -1,20 +1,39 @@
 import React from 'react';
 import Header from '../components/Header';
+import Exploremore from '../services/components/Exploremore';
 import Footer from '../components/Footer';
 import { MdArrowOutward } from 'react-icons/md';
 import Link from 'next/link';
 
 const CareersPage = () => {
   return (
-    <div className="bg-white min-h-screen">
+    <div className="min-h-screen" style={{ backgroundColor: '#F1EEEA' }}>
       <Header />
+
+      {/* Hero Section with Image */}
+      <section className="w-full" style={{ backgroundColor: '#F1EEEA' }}>
+        <div className="w-full px-4 md:px-10 pt-20 pb-16 flex flex-col items-center">
+          <h1 className="text-5xl md:text-6xl font-light text-[#1a1a1a] mb-10 text-center">
+            Careers at ECMDC
+          </h1>
+          <p className="max-w-3xl text-lg md:text-xl leading-relaxed text-[#1a1a1a] text-center">
+            Join a team of exceptional professionals advancing infrastructure development and engineering excellence across diverse sectors
+          </p>
+        </div>
+        <div className="w-full px-4 md:px-10 pb-0 flex justify-center">
+          <div className="w-full overflow-hidden rounded-3xl">
+            <div className="h-[420px] md:h-[500px] w-full">
+              <img
+                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg"
+                alt="Careers at ECMDC"
+                className="w-full h-full object-cover object-center"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <main className="max-w-7xl mx-auto px-4 md:px-10 py-16">
-        <h1 className="text-5xl md:text-6xl font-light text-black mb-6">
-          Careers at ECMDC
-        </h1>
-        <p className="text-xl text-gray-700 leading-relaxed mb-12 max-w-4xl">
-          Join a team of exceptional professionals advancing infrastructure development and engineering excellence across diverse sectors.
-        </p>
 
         {/* Why Join ECMDC Section */}
         <div className="mb-16">
@@ -64,7 +83,7 @@ const CareersPage = () => {
                   <h3 className="text-2xl font-light text-black mb-2">Engineering Roles</h3>
                   <p className="text-gray-600">Multiple Positions Available</p>
                 </div>
-                <span className="bg-blue-100 text-blue-800 px-4 py-1 rounded-full text-sm font-medium">Open</span>
+                <span className="bg-blue-100 text-blue-800 px-4 py-1 rounded-2xl text-sm font-medium">Open</span>
               </div>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Civil, electrical, mechanical, and environmental engineering positions across hydropower, energy, infrastructure, and environmental sectors.
@@ -83,7 +102,7 @@ const CareersPage = () => {
                   <h3 className="text-2xl font-light text-black mb-2">Consulting & Advisory</h3>
                   <p className="text-gray-600">Multiple Positions Available</p>
                 </div>
-                <span className="bg-blue-100 text-blue-800 px-4 py-1 rounded-full text-sm font-medium">Open</span>
+                <span className="bg-blue-100 text-blue-800 px-4 py-1 rounded-2xl text-sm font-medium">Open</span>
               </div>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Strategic consulting positions in management, planning, and organizational development across public and private sectors.
@@ -102,7 +121,7 @@ const CareersPage = () => {
                   <h3 className="text-2xl font-light text-black mb-2">Technical Specialists</h3>
                   <p className="text-gray-600">Multiple Positions Available</p>
                 </div>
-                <span className="bg-blue-100 text-blue-800 px-4 py-1 rounded-full text-sm font-medium">Open</span>
+                <span className="bg-blue-100 text-blue-800 px-4 py-1 rounded-2xl text-sm font-medium">Open</span>
               </div>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Specialized technical roles in data analytics, digital transformation, GIS, and emerging technologies.
@@ -121,7 +140,7 @@ const CareersPage = () => {
                   <h3 className="text-2xl font-light text-black mb-2">Support & Administration</h3>
                   <p className="text-gray-600">Multiple Positions Available</p>
                 </div>
-                <span className="bg-blue-100 text-blue-800 px-4 py-1 rounded-full text-sm font-medium">Open</span>
+                <span className="bg-blue-100 text-blue-800 px-4 py-1 rounded-2xl text-sm font-medium">Open</span>
               </div>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Administrative, finance, HR, and operational support roles that enable organizational excellence.
@@ -166,34 +185,34 @@ const CareersPage = () => {
         </div>
 
         {/* Application Process Section */}
-        <div className="mb-16">
-          <h2 className="text-3xl md:text-4xl font-light text-black mb-8">
+        <div className="mb-16 bg-white rounded-2xl p-8 md:p-12">
+          <h2 className="text-3xl md:text-4xl font-light text-black mb-8 text-center">
             Application Process
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             <div className="text-center">
-              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <div className="bg-blue-100 rounded-2xl w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-blue-800">1</span>
               </div>
               <h4 className="text-lg font-medium text-black mb-2">Apply</h4>
               <p className="text-gray-600 text-sm">Submit your application through our online portal</p>
             </div>
             <div className="text-center">
-              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <div className="bg-blue-100 rounded-2xl w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-blue-800">2</span>
               </div>
               <h4 className="text-lg font-medium text-black mb-2">Review</h4>
               <p className="text-gray-600 text-sm">Our team reviews your qualifications and experience</p>
             </div>
             <div className="text-center">
-              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <div className="bg-blue-100 rounded-2xl w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-blue-800">3</span>
               </div>
               <h4 className="text-lg font-medium text-black mb-2">Interview</h4>
               <p className="text-gray-600 text-sm">Meet with our team to discuss opportunities</p>
             </div>
             <div className="text-center">
-              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <div className="bg-blue-100 rounded-2xl w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-blue-800">4</span>
               </div>
               <h4 className="text-lg font-medium text-black mb-2">Join Us</h4>
@@ -201,21 +220,8 @@ const CareersPage = () => {
             </div>
           </div>
         </div>
-
-        {/* Call to Action */}
-        <div className="bg-[#193362] rounded-2xl p-12 text-white text-center">
-          <h2 className="text-3xl md:text-4xl font-light mb-4">Ready to Make an Impact?</h2>
-          <p className="text-lg mb-8 opacity-90 max-w-2xl mx-auto">
-            Join ECMDC and be part of a team that's shaping the future of infrastructure and sustainable development.
-          </p>
-          <Link href="/careers/apply">
-            <button className="bg-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2" style={{ color: '#193362' }}>
-              Apply Today
-              <MdArrowOutward size={20} />
-            </button>
-          </Link>
-        </div>
       </main>
+      <Exploremore />
       <Footer />
     </div>
   );

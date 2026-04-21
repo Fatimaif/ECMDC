@@ -55,7 +55,7 @@ const ScheduleMeetingPage = () => {
                     required
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#193362]"
+                    className="w-full border border-gray-300 rounded-3xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#193362]"
                     placeholder="John Doe"
                   />
                 </div>
@@ -70,7 +70,7 @@ const ScheduleMeetingPage = () => {
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#193362]"
+                    className="w-full border border-gray-300 rounded-3xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#193362]"
                     placeholder="john@example.com"
                   />
                 </div>
@@ -86,7 +86,7 @@ const ScheduleMeetingPage = () => {
                     name="organization"
                     value={formData.organization}
                     onChange={handleChange}
-                    className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#193362]"
+                    className="w-full border border-gray-300 rounded-3xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#193362]"
                     placeholder="Company Name"
                   />
                 </div>
@@ -100,7 +100,7 @@ const ScheduleMeetingPage = () => {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#193362]"
+                    className="w-full border border-gray-300 rounded-3xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#193362]"
                     placeholder="+92 300 1234567"
                   />
                 </div>
@@ -115,7 +115,7 @@ const ScheduleMeetingPage = () => {
                   required
                   value={formData.meetingType}
                   onChange={handleChange}
-                  className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#193362]"
+                  className="w-full border border-gray-300 rounded-3xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#193362]"
                 >
                   <option value="davos-2026">Davos 2026 Meeting</option>
                   <option value="project-inquiry">Project Inquiry</option>
@@ -136,7 +136,7 @@ const ScheduleMeetingPage = () => {
                     name="preferredDate"
                     value={formData.preferredDate}
                     onChange={handleChange}
-                    className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#193362]"
+                    className="w-full border border-gray-300 rounded-3xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#193362]"
                   />
                 </div>
 
@@ -149,7 +149,7 @@ const ScheduleMeetingPage = () => {
                     name="preferredTime"
                     value={formData.preferredTime}
                     onChange={handleChange}
-                    className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#193362]"
+                    className="w-full border border-gray-300 rounded-3xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#193362]"
                   />
                 </div>
               </div>
@@ -164,7 +164,7 @@ const ScheduleMeetingPage = () => {
                   value={formData.message}
                   onChange={handleChange}
                   rows={5}
-                  className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#193362]"
+                  className="w-full border border-gray-300 rounded-3xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#193362]"
                   placeholder="Please provide details about the purpose of the meeting and topics you'd like to discuss..."
                 ></textarea>
               </div>
@@ -172,7 +172,7 @@ const ScheduleMeetingPage = () => {
               <div className="pt-4">
                 <button
                   type="submit"
-                  className="w-full md:w-auto px-12 py-4 text-white rounded-lg font-semibold hover:brightness-90 transition-all text-lg"
+                  className="w-full md:w-auto px-12 py-4 text-white rounded-2xl font-semibold hover:brightness-90 transition-all text-lg"
                   style={{ backgroundColor: '#193362' }}
                 >
                   Submit Meeting Request

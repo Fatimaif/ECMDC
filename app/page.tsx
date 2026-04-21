@@ -8,6 +8,8 @@ import Assist from './homecomponents/Assist'
 import Career from './homecomponents/Career'
 import Cards from './homecomponents/Cards'
 import Featured from './homecomponents/Featured'
+import Insights from './services/components/Insights'
+import Exploremore from './services/components/Exploremore'
 import Cta from './homecomponents/Cta'
 import Footer from './components/Footer'
 
@@ -35,6 +37,8 @@ const page = () => {
     <Career/>
     <Cards/>
     <Featured/>
+    <Insights/>
+    <Exploremore/>
     {/* Add spacing for the overlaying subscriber bar */}
     <div className="mt-16"></div>
     <Cta/>

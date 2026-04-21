@@ -26,9 +26,9 @@ const Aidivs = () => {
         Our International Business Services
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full max-w-7xl">
+      <div className="grid grid-cols-3 gap-4" style={{ maxWidth: '972px' }}>
         {services.map((item, index) => (
-          <div className="flex flex-col bg-[#f5f2ee] rounded-2xl overflow-hidden h-80" key={index}>
+          <div className="flex flex-col bg-[#f5f2ee] rounded-2xl overflow-hidden h-64" key={index}>
             <div className="w-full h-[70%]">
               <img src={item.image} alt={item.title} className="w-full h-full object-cover" />
             </div>

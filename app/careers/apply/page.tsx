@@ -79,7 +79,7 @@ const ApplyPage = () => {
           </p>
           <button
             onClick={() => router.push('/careers/apply/form')}
-            className="bg-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors cursor-pointer"
+            className="bg-white px-8 py-3 rounded-2xl font-semibold hover:bg-gray-100 transition-colors cursor-pointer"
             style={{ color: '#193362' }}
           >
             Start Application

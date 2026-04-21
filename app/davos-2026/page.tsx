@@ -88,17 +88,17 @@ const Davos2026Page = () => {
         <div className="mb-16">
           <h2 className="text-3xl font-light text-gray-900 mb-8">Focus Areas</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="text-center p-8 bg-white border-2 border-gray-200 rounded-xl hover:border-[#193362] transition-all">
+            <div className="text-center p-8 bg-white border-2 border-gray-200 rounded-3xl hover:border-[#193362] transition-all">
               <div className="text-5xl mb-4">💧</div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Water Security</h3>
               <p className="text-gray-700">Addressing global water challenges through innovative engineering and sustainable management practices.</p>
             </div>
-            <div className="text-center p-8 bg-white border-2 border-gray-200 rounded-xl hover:border-[#193362] transition-all">
+            <div className="text-center p-8 bg-white border-2 border-gray-200 rounded-3xl hover:border-[#193362] transition-all">
               <div className="text-5xl mb-4">⚡</div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Clean Energy</h3>
               <p className="text-gray-700">Accelerating the transition to renewable energy through hydropower and sustainable energy solutions.</p>
             </div>
-            <div className="text-center p-8 bg-white border-2 border-gray-200 rounded-xl hover:border-[#193362] transition-all">
+            <div className="text-center p-8 bg-white border-2 border-gray-200 rounded-3xl hover:border-[#193362] transition-all">
               <div className="text-5xl mb-4">🌍</div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Climate Resilience</h3>
               <p className="text-gray-700">Building infrastructure that withstands climate impacts while supporting sustainable development.</p>
@@ -133,7 +133,7 @@ const Davos2026Page = () => {
             Connect with ECMDC leaders to explore how engineering excellence and sustainable innovation can drive responsible growth and build prosperity within planetary boundaries.
           </p>
           <button
-            className="bg-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+            className="bg-white px-8 py-3 rounded-2xl font-semibold hover:bg-gray-100 transition-colors"
             style={{ color: '#193362' }}
             onClick={() => router.push('/schedule-meeting')}
           >

@@ -24,8 +24,7 @@ const Cards = () => {
 
             <div className="flex justify-end">
               <button
-                className="text-white px-5 py-2 rounded-xl text-base font-semibold flex items-center gap-2 hover:brightness-90 transition-all"
-                style={{ backgroundColor: "#1B3662" }}
+                className="bg-transparent border border-white text-white px-5 py-2 rounded-2xl text-base font-semibold flex items-center gap-2 hover:bg-white hover:text-[#1A3560] transition-all"
                 onClick={() => router.push('/green-economy-report')}
               >
                 DOWNLOAD THE REPORT →
@@ -51,8 +50,7 @@ const Cards = () => {
 
               <div className="flex justify-end">
                 <button
-                  className="text-white px-5 py-2 rounded-xl text-base font-semibold flex items-center gap-2 hover:brightness-90 transition-all"
-                  style={{ backgroundColor: "#1B3662" }}
+                  className="bg-transparent border border-white text-white px-5 py-2 rounded-2xl text-base font-semibold flex items-center gap-2 hover:bg-white hover:text-[#1A3560] transition-all"
                   onClick={() => router.push('/leadership-interview')}
                 >
                   READ THE INTERVIEW →
@@ -61,10 +59,10 @@ const Cards = () => {
             </div>
           </div>
           <div
-            className="rounded-3xl h-[284px] p-10 flex flex-col justify-between border border-gray-300 bg-cover bg-center relative overflow-hidden"
+            className="rounded-2xl h-[284px] p-10 flex flex-col justify-between border border-gray-300 bg-cover bg-center relative overflow-hidden"
             style={{ backgroundImage: "url('/pictures/modern.jpg')" }}
           >
-            <div className="absolute inset-0 bg-black opacity-60 rounded-3xl"></div>
+            <div className="absolute inset-0 bg-black opacity-60 rounded-2xl"></div>
             <div className="relative z-10 flex flex-col justify-between h-full">
               <div>
                 <p className="text-sm text-white tracking-wide mb-2">
@@ -74,16 +72,6 @@ const Cards = () => {
                 <h2 className="text-4xl font-light text-white leading-tight">
                   ECMDC X Product <br /> Library
                 </h2>
-              </div>
-
-              <div className="flex justify-end">
-                <button
-                  className="text-white px-5 py-2 rounded-xl text-base font-semibold flex items-center gap-2 hover:brightness-90 transition-all"
-                  style={{ backgroundColor: "#1B3662" }}
-                  onClick={() => router.push('/product-library')}
-                >
-                  EXPLORE →
-                </button>
               </div>
             </div>
           </div>

@@ -68,7 +68,7 @@ const ResponsibleDisclosurePage = () => {
               <li>Your name/handle and a link for recognition in our acknowledgments page</li>
             </ul>
 
-            <div className="mt-6 p-8 rounded-lg" style={{ backgroundColor: '#193362' }}>
+            <div className="mt-6 p-8 rounded-3xl" style={{ backgroundColor: '#193362' }}>
               <h3 className="text-2xl font-semibold text-white mb-4">Contact Information</h3>
               <div className="space-y-2 text-white">
                 <p><strong>Email:</strong> security@ecmdc.com</p>

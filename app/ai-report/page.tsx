@@ -38,7 +38,7 @@ const AIReportPage = () => {
               <p className="text-gray-700 leading-relaxed mb-4">
                 Organizations implementing AI strategically are seeing 25-40% improvements in operational efficiency within the first 12-18 months of deployment.
               </p>
-              <div className="bg-gray-50 rounded-lg p-4">
+              <div className="bg-gray-50 rounded-3xl p-4">
                 <p className="text-sm text-gray-600">
                   <span className="font-semibold" style={{ color: '#193362' }}>Key Metric:</span> Average ROI of 3.5x within 24 months for comprehensive AI initiatives
                 </p>
@@ -51,7 +51,7 @@ const AIReportPage = () => {
               <p className="text-gray-700 leading-relaxed mb-4">
                 GenAI is dramatically reducing time-to-market for new products and services, with leading companies launching innovations 50-70% faster than traditional methods.
               </p>
-              <div className="bg-gray-50 rounded-lg p-4">
+              <div className="bg-gray-50 rounded-3xl p-4">
                 <p className="text-sm text-gray-600">
                   <span className="font-semibold" style={{ color: '#193362' }}>Key Metric:</span> 60% reduction in product development cycles with AI-assisted design
                 </p>
@@ -64,7 +64,7 @@ const AIReportPage = () => {
               <p className="text-gray-700 leading-relaxed mb-4">
                 AI-powered personalization is driving customer satisfaction scores up by 30-45% while reducing service costs through intelligent automation.
               </p>
-              <div className="bg-gray-50 rounded-lg p-4">
+              <div className="bg-gray-50 rounded-3xl p-4">
                 <p className="text-sm text-gray-600">
                   <span className="font-semibold" style={{ color: '#193362' }}>Key Metric:</span> 35% improvement in Net Promoter Score (NPS) with AI implementations
                 </p>
@@ -77,7 +77,7 @@ const AIReportPage = () => {
               <p className="text-gray-700 leading-relaxed mb-4">
                 First-movers in AI are establishing market positions that will be difficult for laggards to challenge, creating winner-take-most dynamics in many sectors.
               </p>
-              <div className="bg-gray-50 rounded-lg p-4">
+              <div className="bg-gray-50 rounded-3xl p-4">
                 <p className="text-sm text-gray-600">
                   <span className="font-semibold" style={{ color: '#193362' }}>Key Metric:</span> AI leaders growing 2-3x faster than industry peers
                 </p>
@@ -90,7 +90,7 @@ const AIReportPage = () => {
         <div className="mb-16">
           <h2 className="text-4xl font-light text-black mb-8">Strategic Recommendations</h2>
           <div className="space-y-6">
-            <div className="bg-gray-50 rounded-xl p-8 border-l-4" style={{ borderColor: '#193362' }}>
+            <div className="bg-gray-50 rounded-3xl p-8 border-l-4" style={{ borderColor: '#193362' }}>
               <div className="flex items-start gap-4 mb-4">
                 <div className="text-3xl font-light" style={{ color: '#193362' }}>01</div>
                 <div className="flex-1">
@@ -98,7 +98,7 @@ const AIReportPage = () => {
                   <p className="text-gray-700 leading-relaxed mb-3">
                     The most successful AI implementations begin by identifying specific business challenges and opportunities where AI can deliver measurable impact. Focus on use cases with clear ROI potential and strategic importance.
                   </p>
-                  <div className="bg-white rounded-lg p-4">
+                  <div className="bg-white rounded-3xl p-4">
                     <p className="text-sm font-semibold text-gray-900 mb-2">Action Items:</p>
                     <ul className="space-y-1 text-sm text-gray-700">
                       <li>• Conduct AI opportunity assessment across key business functions</li>
@@ -110,7 +110,7 @@ const AIReportPage = () => {
               </div>
             </div>
 
-            <div className="bg-gray-50 rounded-xl p-8 border-l-4" style={{ borderColor: '#193362' }}>
+            <div className="bg-gray-50 rounded-3xl p-8 border-l-4" style={{ borderColor: '#193362' }}>
               <div className="flex items-start gap-4 mb-4">
                 <div className="text-3xl font-light" style={{ color: '#193362' }}>02</div>
                 <div className="flex-1">
@@ -118,7 +118,7 @@ const AIReportPage = () => {
                   <p className="text-gray-700 leading-relaxed mb-3">
                     AI is only as good as the data that powers it. Organizations must invest in data quality, governance, and infrastructure to unlock AI's full potential and ensure responsible deployment.
                   </p>
-                  <div className="bg-white rounded-lg p-4">
+                  <div className="bg-white rounded-3xl p-4">
                     <p className="text-sm font-semibold text-gray-900 mb-2">Action Items:</p>
                     <ul className="space-y-1 text-sm text-gray-700">
                       <li>• Audit current data assets and identify gaps</li>
@@ -130,7 +130,7 @@ const AIReportPage = () => {
               </div>
             </div>
 
-            <div className="bg-gray-50 rounded-xl p-8 border-l-4" style={{ borderColor: '#193362' }}>
+            <div className="bg-gray-50 rounded-3xl p-8 border-l-4" style={{ borderColor: '#193362' }}>
               <div className="flex items-start gap-4 mb-4">
                 <div className="text-3xl font-light" style={{ color: '#193362' }}>03</div>
                 <div className="flex-1">
@@ -138,7 +138,7 @@ const AIReportPage = () => {
                   <p className="text-gray-700 leading-relaxed mb-3">
                     Successful AI transformation requires more than technology—it demands new skills, ways of working, and organizational mindsets. Build internal capabilities while leveraging external expertise.
                   </p>
-                  <div className="bg-white rounded-lg p-4">
+                  <div className="bg-white rounded-3xl p-4">
                     <p className="text-sm font-semibold text-gray-900 mb-2">Action Items:</p>
                     <ul className="space-y-1 text-sm text-gray-700">
                       <li>• Launch AI literacy programs for all employees</li>
@@ -150,7 +150,7 @@ const AIReportPage = () => {
               </div>
             </div>
 
-            <div className="bg-gray-50 rounded-xl p-8 border-l-4" style={{ borderColor: '#193362' }}>
+            <div className="bg-gray-50 rounded-3xl p-8 border-l-4" style={{ borderColor: '#193362' }}>
               <div className="flex items-start gap-4 mb-4">
                 <div className="text-3xl font-light" style={{ color: '#193362' }}>04</div>
                 <div className="flex-1">
@@ -158,7 +158,7 @@ const AIReportPage = () => {
                   <p className="text-gray-700 leading-relaxed mb-3">
                     No organization can master AI alone. Strategic partnerships with technology providers, AI specialists, and industry experts accelerate implementation and reduce risk.
                   </p>
-                  <div className="bg-white rounded-lg p-4">
+                  <div className="bg-white rounded-3xl p-4">
                     <p className="text-sm font-semibold text-gray-900 mb-2">Action Items:</p>
                     <ul className="space-y-1 text-sm text-gray-700">
                       <li>• Identify strategic technology partners aligned with your needs</li>
@@ -170,7 +170,7 @@ const AIReportPage = () => {
               </div>
             </div>
 
-            <div className="bg-gray-50 rounded-xl p-8 border-l-4" style={{ borderColor: '#193362' }}>
+            <div className="bg-gray-50 rounded-3xl p-8 border-l-4" style={{ borderColor: '#193362' }}>
               <div className="flex items-start gap-4 mb-4">
                 <div className="text-3xl font-light" style={{ color: '#193362' }}>05</div>
                 <div className="flex-1">
@@ -178,7 +178,7 @@ const AIReportPage = () => {
                   <p className="text-gray-700 leading-relaxed mb-3">
                     As AI systems become more powerful and pervasive, ethical considerations and governance frameworks become critical for maintaining trust, compliance, and social license to operate.
                   </p>
-                  <div className="bg-white rounded-lg p-4">
+                  <div className="bg-white rounded-3xl p-4">
                     <p className="text-sm font-semibold text-gray-900 mb-2">Action Items:</p>
                     <ul className="space-y-1 text-sm text-gray-700">
                       <li>• Establish AI ethics board and governance policies</li>
@@ -196,37 +196,37 @@ const AIReportPage = () => {
         <div className="mb-16">
           <h2 className="text-4xl font-light text-black mb-8">AI Impact Across Industries</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="bg-white rounded-xl border-2 border-gray-200 p-6">
+            <div className="bg-white rounded-3xl border-2 border-gray-200 p-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Manufacturing</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
                 Predictive maintenance, quality control automation, and supply chain optimization driving 20-30% productivity gains.
               </p>
             </div>
-            <div className="bg-white rounded-xl border-2 border-gray-200 p-6">
+            <div className="bg-white rounded-3xl border-2 border-gray-200 p-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Retail</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
                 Personalized experiences, demand forecasting, and dynamic pricing increasing revenue by 15-25%.
               </p>
             </div>
-            <div className="bg-white rounded-xl border-2 border-gray-200 p-6">
+            <div className="bg-white rounded-3xl border-2 border-gray-200 p-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Healthcare</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
                 Diagnostic assistance, drug discovery, and patient care optimization improving outcomes while reducing costs.
               </p>
             </div>
-            <div className="bg-white rounded-xl border-2 border-gray-200 p-6">
+            <div className="bg-white rounded-3xl border-2 border-gray-200 p-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Financial Services</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
                 Fraud detection, risk assessment, and algorithmic trading delivering competitive advantages and compliance.
               </p>
             </div>
-            <div className="bg-white rounded-xl border-2 border-gray-200 p-6">
+            <div className="bg-white rounded-3xl border-2 border-gray-200 p-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Energy</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
                 Grid optimization, renewable forecasting, and asset management advancing sustainability goals.
               </p>
             </div>
-            <div className="bg-white rounded-xl border-2 border-gray-200 p-6">
+            <div className="bg-white rounded-3xl border-2 border-gray-200 p-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Infrastructure</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
                 Predictive engineering, project optimization, and smart monitoring improving delivery and safety.
@@ -256,19 +256,19 @@ const AIReportPage = () => {
 
         {/* Statistics */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
-          <div className="text-center p-6 bg-gray-50 rounded-xl">
+          <div className="text-center p-6 bg-gray-50 rounded-3xl">
             <div className="text-4xl font-light mb-2" style={{ color: '#193362' }}>250+</div>
             <div className="text-gray-700">AI Projects Analyzed</div>
           </div>
-          <div className="text-center p-6 bg-gray-50 rounded-xl">
+          <div className="text-center p-6 bg-gray-50 rounded-3xl">
             <div className="text-4xl font-light mb-2" style={{ color: '#193362' }}>35+</div>
             <div className="text-gray-700">Countries Studied</div>
           </div>
-          <div className="text-center p-6 bg-gray-50 rounded-xl">
+          <div className="text-center p-6 bg-gray-50 rounded-3xl">
             <div className="text-4xl font-light mb-2" style={{ color: '#193362' }}>15+</div>
             <div className="text-gray-700">Industries Covered</div>
           </div>
-          <div className="text-center p-6 bg-gray-50 rounded-xl">
+          <div className="text-center p-6 bg-gray-50 rounded-3xl">
             <div className="text-4xl font-light mb-2" style={{ color: '#193362' }}>3.5x</div>
             <div className="text-gray-700">Average ROI</div>
           </div>

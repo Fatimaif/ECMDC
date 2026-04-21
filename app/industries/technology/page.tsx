@@ -73,7 +73,7 @@ const TechnologyPage = () => {
           <p className="text-lg mb-6 opacity-90">
             Partner with us to accelerate product development, enhance technical capabilities, and drive market success in the technology sector.
           </p>
-          <button className="bg-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors" style={{ color: '#193362' }}>
+          <button className="bg-white px-8 py-3 rounded-2xl font-semibold hover:bg-gray-100 transition-colors" style={{ color: '#193362' }}>
             Start a Conversation
           </button>
         </div>

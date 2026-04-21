@@ -8,7 +8,7 @@ const Ecmdc = () => {
   const router = useRouter();
 
   return (
-    <section className={`w-full mt-20 overflow-hidden ${fontAspenExtralight}`}>
+    <section className={`w-full overflow-hidden bg-white ${fontAspenExtralight}`}>
       <div className="w-full h-[250px] relative">
         <img
           src="/pictures/frans.jpg"
@@ -30,7 +30,7 @@ const Ecmdc = () => {
         </div>
         <div className="absolute bottom-6 right-6">
           <div
-            className="rounded-xl px-4 md:px-6 py-2.5 flex justify-between items-center gap-2 md:gap-4 cursor-pointer hover:brightness-90 transition-all"
+            className="rounded-2xl px-4 md:px-6 py-2.5 flex justify-between items-center gap-2 md:gap-4 cursor-pointer hover:brightness-90 transition-all"
             style={{ backgroundColor: "#1B3662" }}
             onClick={() => router.push('/davos-2026')}
           >

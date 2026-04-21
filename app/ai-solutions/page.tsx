@@ -20,19 +20,19 @@ const AISolutionsPage = () => {
 
         {/* Statistics */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
-          <div className="text-center p-6 bg-gray-50 rounded-xl">
+          <div className="text-center p-6 bg-gray-50 rounded-3xl">
             <div className="text-4xl font-light mb-2" style={{ color: '#193362' }}>250+</div>
             <div className="text-gray-700">AI Projects Delivered</div>
           </div>
-          <div className="text-center p-6 bg-gray-50 rounded-xl">
+          <div className="text-center p-6 bg-gray-50 rounded-3xl">
             <div className="text-4xl font-light mb-2" style={{ color: '#193362' }}>35+</div>
             <div className="text-gray-700">Countries Served</div>
           </div>
-          <div className="text-center p-6 bg-gray-50 rounded-xl">
+          <div className="text-center p-6 bg-gray-50 rounded-3xl">
             <div className="text-4xl font-light mb-2" style={{ color: '#193362' }}>15+</div>
             <div className="text-gray-700">Industry Sectors</div>
           </div>
-          <div className="text-center p-6 bg-gray-50 rounded-xl">
+          <div className="text-center p-6 bg-gray-50 rounded-3xl">
             <div className="text-4xl font-light mb-2" style={{ color: '#193362' }}>98%</div>
             <div className="text-gray-700">Client Satisfaction</div>
           </div>
@@ -46,7 +46,7 @@ const AISolutionsPage = () => {
           <div className="bg-white rounded-2xl border-2 border-gray-200 overflow-hidden hover:border-[#193362] transition-all duration-300 hover:shadow-xl">
             <div className="p-8 pb-6" style={{ backgroundColor: '#193362' }}>
               <div className="flex items-start gap-3 mb-4">
-                <div className="w-14 h-14 bg-white rounded-lg flex-shrink-0 flex items-center justify-center">
+                <div className="w-14 h-14 bg-white rounded-3xl flex-shrink-0 flex items-center justify-center">
                   <MdAdb color="#193362" size="1.875rem" />
                 </div>
                 <div>
@@ -93,7 +93,7 @@ const AISolutionsPage = () => {
                 </li>
               </ul>
 
-              <div className="bg-blue-50 rounded-lg p-4 border-l-4" style={{ borderColor: '#193362' }}>
+              <div className="bg-blue-50 rounded-3xl p-4 border-l-4" style={{ borderColor: '#193362' }}>
                 <p className="text-sm text-gray-700">
                   <span className="font-semibold">Impact:</span> Average 15-25% improvement in inventory turnover and 10-20% increase in revenue through AI-driven insights.
                 </p>
@@ -105,7 +105,7 @@ const AISolutionsPage = () => {
           <div className="bg-white rounded-2xl border-2 border-gray-200 overflow-hidden hover:border-[#193362] transition-all duration-300 hover:shadow-xl">
             <div className="p-8 pb-6" style={{ backgroundColor: '#193362' }}>
               <div className="flex items-start gap-3 mb-4">
-                <div className="w-14 h-14 bg-white rounded-lg flex-shrink-0 flex items-center justify-center">
+                <div className="w-14 h-14 bg-white rounded-3xl flex-shrink-0 flex items-center justify-center">
                   <IoMdTimer color="#193362" size="1.875rem" />
                 </div>
                 <div>
@@ -152,7 +152,7 @@ const AISolutionsPage = () => {
                 </li>
               </ul>
 
-              <div className="bg-blue-50 rounded-lg p-4 border-l-4" style={{ borderColor: '#193362' }}>
+              <div className="bg-blue-50 rounded-3xl p-4 border-l-4" style={{ borderColor: '#193362' }}>
                 <p className="text-sm text-gray-700">
                   <span className="font-semibold">Impact:</span> Reduce manufacturing defects by 30-40% and improve production efficiency by 20-35% through AI automation.
                 </p>
@@ -164,7 +164,7 @@ const AISolutionsPage = () => {
           <div className="bg-white rounded-2xl border-2 border-gray-200 overflow-hidden hover:border-[#193362] transition-all duration-300 hover:shadow-xl">
             <div className="p-8 pb-6" style={{ backgroundColor: '#193362' }}>
               <div className="flex items-start gap-3 mb-4">
-                <div className="w-14 h-14 bg-white rounded-lg flex-shrink-0 flex items-center justify-center">
+                <div className="w-14 h-14 bg-white rounded-3xl flex-shrink-0 flex items-center justify-center">
                   <BsArrowRepeat color="#193362" size="1.875rem" />
                 </div>
                 <div>
@@ -211,7 +211,7 @@ const AISolutionsPage = () => {
                 </li>
               </ul>
 
-              <div className="bg-blue-50 rounded-lg p-4 border-l-4" style={{ borderColor: '#193362' }}>
+              <div className="bg-blue-50 rounded-3xl p-4 border-l-4" style={{ borderColor: '#193362' }}>
                 <p className="text-sm text-gray-700">
                   <span className="font-semibold">Impact:</span> Achieve 25-35% reduction in logistics costs and 40-50% improvement in delivery accuracy.
                 </p>
@@ -224,7 +224,7 @@ const AISolutionsPage = () => {
         <div className="mb-16">
           <h2 className="text-4xl font-light text-black mb-8">Our Implementation Approach</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="bg-gray-50 rounded-xl p-6 border-l-4" style={{ borderColor: '#193362' }}>
+            <div className="bg-gray-50 rounded-3xl p-6 border-l-4" style={{ borderColor: '#193362' }}>
               <div className="text-3xl font-light mb-3" style={{ color: '#193362' }}>01</div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Discovery & Assessment</h3>
               <p className="text-gray-700 text-sm leading-relaxed">
@@ -232,7 +232,7 @@ const AISolutionsPage = () => {
               </p>
             </div>
 
-            <div className="bg-gray-50 rounded-xl p-6 border-l-4" style={{ borderColor: '#193362' }}>
+            <div className="bg-gray-50 rounded-3xl p-6 border-l-4" style={{ borderColor: '#193362' }}>
               <div className="text-3xl font-light mb-3" style={{ color: '#193362' }}>02</div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Solution Design</h3>
               <p className="text-gray-700 text-sm leading-relaxed">
@@ -240,7 +240,7 @@ const AISolutionsPage = () => {
               </p>
             </div>
 
-            <div className="bg-gray-50 rounded-xl p-6 border-l-4" style={{ borderColor: '#193362' }}>
+            <div className="bg-gray-50 rounded-3xl p-6 border-l-4" style={{ borderColor: '#193362' }}>
               <div className="text-3xl font-light mb-3" style={{ color: '#193362' }}>03</div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Deployment & Integration</h3>
               <p className="text-gray-700 text-sm leading-relaxed">
@@ -248,7 +248,7 @@ const AISolutionsPage = () => {
               </p>
             </div>
 
-            <div className="bg-gray-50 rounded-xl p-6 border-l-4" style={{ borderColor: '#193362' }}>
+            <div className="bg-gray-50 rounded-3xl p-6 border-l-4" style={{ borderColor: '#193362' }}>
               <div className="text-3xl font-light mb-3" style={{ color: '#193362' }}>04</div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Optimization & Support</h3>
               <p className="text-gray-700 text-sm leading-relaxed">
@@ -263,31 +263,31 @@ const AISolutionsPage = () => {
           <h2 className="text-3xl font-light text-black mb-6">Advanced Technology Stack</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
             <div className="text-center">
-              <div className="bg-white rounded-lg p-4 mb-2 shadow-sm">
+              <div className="bg-white rounded-3xl p-4 mb-2 shadow-sm">
                 <p className="font-semibold text-gray-900">Machine Learning</p>
               </div>
               <p className="text-xs text-gray-600">TensorFlow, PyTorch</p>
             </div>
             <div className="text-center">
-              <div className="bg-white rounded-lg p-4 mb-2 shadow-sm">
+              <div className="bg-white rounded-3xl p-4 mb-2 shadow-sm">
                 <p className="font-semibold text-gray-900">Deep Learning</p>
               </div>
               <p className="text-xs text-gray-600">Neural Networks, CNNs</p>
             </div>
             <div className="text-center">
-              <div className="bg-white rounded-lg p-4 mb-2 shadow-sm">
+              <div className="bg-white rounded-3xl p-4 mb-2 shadow-sm">
                 <p className="font-semibold text-gray-900">NLP</p>
               </div>
               <p className="text-xs text-gray-600">GPT, BERT, Transformers</p>
             </div>
             <div className="text-center">
-              <div className="bg-white rounded-lg p-4 mb-2 shadow-sm">
+              <div className="bg-white rounded-3xl p-4 mb-2 shadow-sm">
                 <p className="font-semibold text-gray-900">Computer Vision</p>
               </div>
               <p className="text-xs text-gray-600">OpenCV, YOLO</p>
             </div>
             <div className="text-center">
-              <div className="bg-white rounded-lg p-4 mb-2 shadow-sm">
+              <div className="bg-white rounded-3xl p-4 mb-2 shadow-sm">
                 <p className="font-semibold text-gray-900">Big Data</p>
               </div>
               <p className="text-xs text-gray-600">Spark, Hadoop</p>
@@ -313,7 +313,7 @@ const AISolutionsPage = () => {
               'Oil & Gas',
               'Public Sector'
             ].map((industry, idx) => (
-              <div key={idx} className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center hover:border-[#193362] transition-all">
+              <div key={idx} className="bg-white border-2 border-gray-200 rounded-3xl p-4 text-center hover:border-[#193362] transition-all">
                 <p className="font-semibold text-gray-900">{industry}</p>
               </div>
             ))}

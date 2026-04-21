@@ -65,7 +65,7 @@ const AICollaborationsPage = () => {
             <h3 className="text-2xl font-semibold text-gray-900 mb-6">Leading Technology Companies</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
               {['AWS', 'Google', 'IBM', 'Microsoft', 'Salesforce', 'SAP'].map((company, idx) => (
-                <div key={idx} className="bg-gray-50 rounded-xl p-6 text-center border-2 border-gray-200 hover:border-[#193362] transition-all">
+                <div key={idx} className="bg-gray-50 rounded-3xl p-6 text-center border-2 border-gray-200 hover:border-[#193362] transition-all">
                   <p className="text-xl font-semibold text-gray-900">{company}</p>
                 </div>
               ))}
@@ -77,7 +77,7 @@ const AICollaborationsPage = () => {
             <h3 className="text-2xl font-semibold text-gray-900 mb-6">AI-Centered Enterprises</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
               {['OpenAI', 'Anthropic', 'Articul8', 'LangChain', 'Palantir'].map((company, idx) => (
-                <div key={idx} className="bg-gray-50 rounded-xl p-6 text-center border-2 border-gray-200 hover:border-[#193362] transition-all">
+                <div key={idx} className="bg-gray-50 rounded-3xl p-6 text-center border-2 border-gray-200 hover:border-[#193362] transition-all">
                   <p className="text-xl font-semibold text-gray-900">{company}</p>
                 </div>
               ))}
@@ -207,35 +207,35 @@ const AICollaborationsPage = () => {
         <div className="mb-16">
           <h2 className="text-4xl font-light text-black mb-8">Real-World Applications</h2>
           <div className="space-y-6">
-            <div className="bg-gray-50 rounded-xl p-8 border-l-4" style={{ borderColor: '#193362' }}>
+            <div className="bg-gray-50 rounded-3xl p-8 border-l-4" style={{ borderColor: '#193362' }}>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Intelligent Customer Service</h3>
               <p className="text-gray-700 leading-relaxed">
                 Deploy GenAI-powered chatbots and virtual assistants that understand context, provide personalized responses, and resolve customer inquiries 24/7 across multiple channels.
               </p>
             </div>
 
-            <div className="bg-gray-50 rounded-xl p-8 border-l-4" style={{ borderColor: '#193362' }}>
+            <div className="bg-gray-50 rounded-3xl p-8 border-l-4" style={{ borderColor: '#193362' }}>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Advanced Data Analytics</h3>
               <p className="text-gray-700 leading-relaxed">
                 Harness AI to uncover hidden patterns, predict trends, and generate actionable insights from massive datasets in real-time for better decision-making.
               </p>
             </div>
 
-            <div className="bg-gray-50 rounded-xl p-8 border-l-4" style={{ borderColor: '#193362' }}>
+            <div className="bg-gray-50 rounded-3xl p-8 border-l-4" style={{ borderColor: '#193362' }}>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Process Automation</h3>
               <p className="text-gray-700 leading-relaxed">
                 Automate repetitive tasks and complex workflows using intelligent process automation that learns and adapts, freeing your team to focus on high-value work.
               </p>
             </div>
 
-            <div className="bg-gray-50 rounded-xl p-8 border-l-4" style={{ borderColor: '#193362' }}>
+            <div className="bg-gray-50 rounded-3xl p-8 border-l-4" style={{ borderColor: '#193362' }}>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Personalized Experiences</h3>
               <p className="text-gray-700 leading-relaxed">
                 Create hyper-personalized customer experiences using AI-driven recommendations, content generation, and dynamic user interfaces that adapt to individual preferences.
               </p>
             </div>
 
-            <div className="bg-gray-50 rounded-xl p-8 border-l-4" style={{ borderColor: '#193362' }}>
+            <div className="bg-gray-50 rounded-3xl p-8 border-l-4" style={{ borderColor: '#193362' }}>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Risk Management & Compliance</h3>
               <p className="text-gray-700 leading-relaxed">
                 Proactively identify and mitigate risks with AI-powered monitoring, anomaly detection, and automated compliance reporting across your organization.
@@ -246,19 +246,19 @@ const AICollaborationsPage = () => {
 
         {/* Statistics */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
-          <div className="text-center p-6 bg-gray-50 rounded-xl">
+          <div className="text-center p-6 bg-gray-50 rounded-3xl">
             <div className="text-4xl font-light mb-2" style={{ color: '#193362' }}>11+</div>
             <div className="text-gray-700">Technology Partners</div>
           </div>
-          <div className="text-center p-6 bg-gray-50 rounded-xl">
+          <div className="text-center p-6 bg-gray-50 rounded-3xl">
             <div className="text-4xl font-light mb-2" style={{ color: '#193362' }}>250+</div>
             <div className="text-gray-700">AI Projects Delivered</div>
           </div>
-          <div className="text-center p-6 bg-gray-50 rounded-xl">
+          <div className="text-center p-6 bg-gray-50 rounded-3xl">
             <div className="text-4xl font-light mb-2" style={{ color: '#193362' }}>35+</div>
             <div className="text-gray-700">Countries Served</div>
           </div>
-          <div className="text-center p-6 bg-gray-50 rounded-xl">
+          <div className="text-center p-6 bg-gray-50 rounded-3xl">
             <div className="text-4xl font-light mb-2" style={{ color: '#193362' }}>24+</div>
             <div className="text-gray-700">Years of Experience</div>
           </div>

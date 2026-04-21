@@ -70,7 +70,7 @@ const SubscribePage = () => {
                     required
                     value={name}
                     onChange={(e) => setName(e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-3xl focus:outline-none focus:ring-2 focus:ring-blue-900 focus:border-transparent"
                     placeholder="Enter your full name"
                   />
                 </div>
@@ -85,7 +85,7 @@ const SubscribePage = () => {
                     required
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-3xl focus:outline-none focus:ring-2 focus:ring-blue-900 focus:border-transparent"
                     placeholder="Enter your email address"
                   />
                 </div>
@@ -98,7 +98,7 @@ const SubscribePage = () => {
                     {interestOptions.map((interest) => (
                       <label
                         key={interest}
-                        className="flex items-center space-x-3 p-3 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer"
+                        className="flex items-center space-x-3 p-3 border border-gray-200 rounded-3xl hover:bg-gray-50 cursor-pointer"
                       >
                         <input
                           type="checkbox"
@@ -115,7 +115,7 @@ const SubscribePage = () => {
                 <div className="pt-4">
                   <button
                     type="submit"
-                    className="w-full bg-blue-900 text-white py-4 px-6 rounded-lg hover:bg-blue-800 transition-colors duration-200 font-medium"
+                    className="w-full bg-blue-900 text-white py-4 px-6 rounded-2xl hover:bg-blue-800 transition-colors duration-200 font-medium"
                   >
                     Subscribe Now
                   </button>

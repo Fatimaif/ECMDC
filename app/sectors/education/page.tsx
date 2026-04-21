@@ -49,7 +49,7 @@ const EducationPage = () => {
           <p className="text-lg mb-6 opacity-90">
             Build educational capacity and infrastructure that empowers communities and drives development.
           </p>
-          <button className="bg-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors" style={{ color: '#193362' }}>
+          <button className="bg-white px-8 py-3 rounded-2xl font-semibold hover:bg-gray-100 transition-colors" style={{ color: '#193362' }}>
             Get Started
           </button>
         </div>

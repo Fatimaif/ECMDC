@@ -73,7 +73,7 @@ const RetailConsumerGoodsPage = () => {
           <p className="text-lg mb-6 opacity-90">
             Deliver exceptional customer experiences and operational excellence with our retail and consumer goods solutions. Let's explore how we can help.
           </p>
-          <button className="bg-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors" style={{ color: '#193362' }}>
+          <button className="bg-white px-8 py-3 rounded-2xl font-semibold hover:bg-gray-100 transition-colors" style={{ color: '#193362' }}>
             Connect With Us
           </button>
         </div>

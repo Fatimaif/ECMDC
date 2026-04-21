@@ -97,7 +97,7 @@ const PrivacyPolicyPage = () => {
             <p className="leading-relaxed">
               If you have questions or comments about this Privacy Policy, please contact us at:
             </p>
-            <div className="mt-4 p-6 bg-gray-50 rounded-lg">
+            <div className="mt-4 p-6 bg-gray-50 rounded-3xl">
               <p className="font-semibold">ECMDC</p>
               <p>Office No. 36, The Pearl Continental, Mall Road, Lahore</p>
               <p>Email: info@ecmdc.co</p>

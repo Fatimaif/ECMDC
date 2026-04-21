@@ -30,7 +30,7 @@ const Ourai = () => {
       </p>
             <div className="mt-4">
         <div
-          className="rounded-xl px-4 md:px-6 py-2.5 flex items-center gap-2 md:gap-4 cursor-pointer hover:brightness-90 transition-all w-fit"
+          className="rounded-2xl px-4 md:px-6 py-2.5 flex items-center gap-2 md:gap-4 cursor-pointer hover:brightness-90 transition-all w-fit"
           style={{ backgroundColor: "#1B3662" }}
           onClick={() => router.push('/ai-collaborations')}
         >

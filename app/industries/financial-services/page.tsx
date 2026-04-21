@@ -73,7 +73,7 @@ const FinancialServicesPage = () => {
           <p className="text-lg mb-6 opacity-90">
             Partner with us to navigate digital transformation, enhance customer experiences, and drive growth in the financial services sector.
           </p>
-          <button className="bg-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors" style={{ color: '#193362' }}>
+          <button className="bg-white px-8 py-3 rounded-2xl font-semibold hover:bg-gray-100 transition-colors" style={{ color: '#193362' }}>
             Explore Solutions
           </button>
         </div>
